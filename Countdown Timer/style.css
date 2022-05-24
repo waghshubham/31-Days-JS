@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+}
+p {
+    font-size: 25px;
+    font-family: monospace;
+}
+
+input {
+    margin: 10px;
+    height: 20px;
+    width: 70px;
+}
+
+button {
+    background-color: #007BFF;
+    border: blue;
+    color: white;
+    text-align: center;
+    margin: 25px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    color: white;
+    border: 1px solid blue;
+    transform: scale(1.1);
+}
+h1 {
+    margin-top: 10px;
+}
+#msg {
+    color:red;
+}
