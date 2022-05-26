@@ -1,0 +1,15 @@
+body {
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#txt {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 40px;
+}
