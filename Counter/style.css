@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+#number {
+    padding-bottom: 20px;
+}
+#box {
+    font-size: 1.2rem;
+    padding-top: 20px;
+}
+
+button {
+    margin-top: 30px;
+    height: 40px;
+    width: 120px;
+}
+
+#btn-block {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
