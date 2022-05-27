@@ -1,0 +1,11 @@
+body {
+    font-family: monospace;
+}
+
+.box {
+    padding: 25px;
+    text-align: center;
+}
+#btn-box {
+    margin-top: 20px;
+}
