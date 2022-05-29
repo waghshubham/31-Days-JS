@@ -141,16 +141,30 @@ const changeColor = () => {
     document.body.style.color = str;
 }
 
+let count = 0;
+function setElements(count) {
+    tel.innerHTML = data[count].phone;
+    nm.innerHTML = data[count].name;
+    pht.src = data[count].photo;
+    info.innerHTML = data[count].text;
+    jb.innerHTML = data[count].job;
+}
+
 const change = () => {
-    const random = getRandomNumber();
+    //const random = getRandomNumber();
     changeColor();
-    for (let i=0; i<10; i++) {
-        tel.innerHTML = data[random].phone;
-        nm.innerHTML = data[random].name;
-        pht.src = data[random].photo;
-        info.innerHTML = data[random].text;
-        jb.innerHTML = data[random].job;
-    }
+    // for (let i=0; i<10; i++) {
+    //     tel.innerHTML = data[random].phone;
+    //     nm.innerHTML = data[random].name;
+    //     pht.src = data[random].photo;
+    //     info.innerHTML = data[random].text;
+    //     jb.innerHTML = data[random].job;
+    // }
+    if (count === 15)
+    count = 0;
+    setElements(count);
+    count++;
+    //console.log(count);
 }
 
 next.addEventListener('click', change);
