@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+div.box{
+    border: 2px solid black;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+label {
+    margin-left: 20px;
+}
+input {
+    padding-left: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+input:focus {
+    height: 39px;
+}
+
+button {
+    height: 40px;
+    width: 50px;
+}
+ul {
+    list-style-type: none;
+}
+
+.orderbox {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 310px;
+    border: 1.3px solid black;
+}
+
+button#delete {
+    margin: 30px;
+    font-size: 14px;
+    height: 40px;
+    width: 80px;
+}
